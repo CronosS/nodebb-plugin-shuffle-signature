@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-shuffle-signature",
+  "version": "0.0.1",
+  "description": "Allows users to randomly display one item from a set defined in their signature.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CronosS/nodebb-plugin-shuffle-signature"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "shuffle",
+    "randomize",
+    "signature"
+  ],
+  "author": {
+    "name": "Xevious",
+    "email": "xevious24@hotmail.fr"
+  },
+  "bugs": {
+    "url": "https://github.com/CronosS/nodebb-plugin-shuffle-signature/issues"
+  },
+  "readmeFilename": "README.md"
+}

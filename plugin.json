@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-plugin-shuffle-signature",
+    "name": "NodeBB Shuffle Signature",
+    "description": "Allows users to randomly display one item from a set defined in their signature.",
+    "url": "https://github.com/CronosS/nodebb-plugin-shuffle-signature",
+    "library": "./library.js",
+    "templates": "./public/templates",
+    "hooks": [
+        { "hook": "filter:post.parseSignature", "method": "parse", "priority": 5}
+    ],
+    "scripts": [
+        "./public/js/main.js"
+    ]
+}
